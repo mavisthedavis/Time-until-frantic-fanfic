@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Jersey";
+  src: url('Jersey25-Regular.ttf'); 
+}
+
+#layer1 { 
+    position: absolute; /* Removes elements from normal document flow */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+} 
+#layer0 { 
+    position: absolute; /* Removes elements from normal document flow */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    
+}
+#textCon { 
+    background-color: lightgrey; 
+    border-width: 1vw; 
+    border-style: solid; 
+    border-color: #3f3f3f; 
+}
+
+.line { 
+    width: 100%;  
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+    font-size: 6vw;
+} 
+
+.box { 
+    width: 4.5vw; 
+    height: 4.5vh; 
+    margin-right: .5vw;
+    background-color: #f2b8fe; 
+} 
+.row { 
+    width: 100vw; 
+    height: 4vh;  
+    margin-bottom: 1vw; 
+    display: flex;             
+    flex-direction: row; 
+} 
+body { 
+    background-color: #d471b0; 
+    font-family: "Jersey";
+}
