@@ -10,7 +10,7 @@ function check() {
         if (time.getHours() == 12) { 
             $("#time").text(((60 - time.getMinutes()) + " min ") + ((60 - time.getSeconds()) + " Seconds"));
         } else { 
-            $("#time").text(((10 - time.getHours()) + " Hours") + ((60 - time.getMinutes()) + " min ") + ((60 - time.getSeconds()) + " Seconds"));
+            $("#time").text(((time.getHours() - 10) + " Hours ") + ((60 - time.getMinutes()) + " min ") + ((60 - time.getSeconds()) + " Seconds"));
         }
         
     } else { 
